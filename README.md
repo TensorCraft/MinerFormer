@@ -3,7 +3,7 @@
 MinerFormer is a custom-designed Transformer model for financial forecasting based on multi-timescale candlestick (K-line) data. It predicts the next high and low prices using sequences from multiple resolutions (e.g., 1m, 5m, 1d, 1M), enhanced by optional semantic features from external large language models (LLMs).
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-research-blue" alt="Status: Research"> <img src="https://img.shields.io/badge/license-MIT-green">
+  <img src="https://img.shields.io/badge/status-research-blue" alt="Status: Research"> <img src="https://img.shields.io/badge/apache-2">
 </p>
 
 ---
