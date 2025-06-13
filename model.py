@@ -1,12 +1,6 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from transformers import AutoModel, AutoTokenizer
-import config
-
-model_name = config.model_name
-tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
-model = AutoModel.from_pretrained(model_name, trust_remote_code=True).eval().to(config.device)
 
 class RotaryEmbedding(nn.Module):
     def __init__(self, head_dim, max_seq_len=2048):
